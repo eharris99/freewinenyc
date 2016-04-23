@@ -13,9 +13,9 @@ var main = function() {
         } else if (category === 'nav-queens') {
             $('.thumbnail').removeClass('selected');
             $('.queens').addClass('selected');
-        } else if (category === 'nav-bronx') {
+        } else if (category === 'nav-staten') {
             $('.thumbnail').removeClass('selected');
-            $('.bronx').addClass('selected');
+            $('.staten').addClass('selected');
         } else if (category === 'nav-all') {
             $('.thumbnail').removeClass('selected');
         }
