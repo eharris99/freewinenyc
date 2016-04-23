@@ -3,19 +3,19 @@ var main = function() {
         var category = $(this).attr('class');
         $('.nav li').removeClass('active');
         $(this).addClass('active');
-        if (category === 'nav-consumer') {
+        if (category === 'nav-manhattan') {
             $('.thumbnail').removeClass('selected');
-            $('.consumer').addClass('selected');
-        } else if (category === 'nav-mobile') {
+            $('.manhattan').addClass('selected');
+        } else if (category === 'nav-brooklyn') {
             $('.thumbnail').removeClass('selected');
-            $('.mobile').addClass('selected');
+            $('.brooklyn').addClass('selected');
           console.log("mobile");
-        } else if (category === 'nav-commerce') {
+        } else if (category === 'nav-queens') {
             $('.thumbnail').removeClass('selected');
-            $('.commerce').addClass('selected');
-        } else if (category === 'nav-enterprise') {
+            $('.queens').addClass('selected');
+        } else if (category === 'nav-bronx') {
             $('.thumbnail').removeClass('selected');
-            $('.enterprise').addClass('selected');
+            $('.bronx').addClass('selected');
         } else if (category === 'nav-all') {
             $('.thumbnail').removeClass('selected');
         }
