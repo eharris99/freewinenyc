@@ -16,7 +16,12 @@ var main = function() {
         } else if (category === 'nav-staten') {
             $('.thumbnail').removeClass('selected');
             $('.staten').addClass('selected');
-        } else if (category === 'nav-all') {
+        } else if (category === 'nav-bronx') {
+            $('.thumbnail').removeClass('selected');
+            $('.bronx').addClass('selected');
+        }
+        
+        else if (category === 'nav-all') {
             $('.thumbnail').removeClass('selected');
         }
     });
