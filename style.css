@@ -48,6 +48,16 @@ body {
   margin: 2px;
 }
 
+#button {
+ text-decoration:none;
+}
+
+.container-contact {
+  
+  margin-top:-60px;
+  margin-right:40px;
+}
+
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover,
 .nav-pills>li.active>a:focus {
