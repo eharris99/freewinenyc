@@ -95,7 +95,7 @@ body {
 /* height:50px; */
 /*}*/
 
-@media (max-width:500px) {
+@media (max-width:800px) {
   
  img {
   width:100%; 
@@ -103,7 +103,7 @@ body {
  
   body {
     
-    overflow:scroll;
+    overflow-y:scroll;
   }
 
 }
