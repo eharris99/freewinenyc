@@ -28,6 +28,18 @@ var main = function() {
             $('.thumbnail').removeClass('selected');
             $('.tapas').addClass('selected');
            }
+           else if (category === 'nav-pizza') {
+            $('.thumbnail').removeClass('selected');
+            $('.pizza').addClass('selected');
+           }
+            else if (category === 'nav-bagel-brunch') {
+            $('.thumbnail').removeClass('selected');
+            $('.bagel-brunch').addClass('selected');
+           }
+           else if (category === 'nav-chocolate') {
+            $('.thumbnail').removeClass('selected');
+            $('.chocolate').addClass('selected');
+           }
         else if (category === 'nav-all') {
             $('.thumbnail').removeClass('selected');
         }
