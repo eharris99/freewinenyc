@@ -20,7 +20,14 @@ var main = function() {
             $('.thumbnail').removeClass('selected');
             $('.bronx').addClass('selected');
         }
-        
+        else if (category === 'nav-charcuterie') {
+            $('.thumbnail').removeClass('selected');
+            $('.charcuterie').addClass('selected');
+        }
+           else if (category === 'nav-tapas') {
+            $('.thumbnail').removeClass('selected');
+            $('.tapas').addClass('selected');
+           }
         else if (category === 'nav-all') {
             $('.thumbnail').removeClass('selected');
         }
