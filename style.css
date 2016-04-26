@@ -4,8 +4,20 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
+.winebody {
   background: url('./images/pattern3.jpg') no-repeat fixed; 
+  background-size: cover;
+  overflow:hidden;
+}
+
+.cheesebody {
+  background: url('./images/cheesebackground.jpg') no-repeat fixed; 
+  background-size: cover;
+  overflow:hidden;
+}
+
+.eebody {
+  background: url('./images/eebackground.2jpeg.jpg') no-repeat fixed; 
   background-size: cover;
   overflow:hidden;
 }
