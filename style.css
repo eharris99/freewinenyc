@@ -157,7 +157,7 @@ html, body {
 @media (max-width:986px) {
   
   
-   body {
+   .eebody, .cheesebody, .winebody {
     
     overflow-y:scroll;
   }
